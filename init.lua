@@ -78,12 +78,17 @@ remapKey({'ctrl'}, 'f', keyCode('right'))
 remapKey({'ctrl'}, 'b', keyCode('left'))
 remapKey({'ctrl'}, 'n', keyCode('down'))
 remapKey({'ctrl'}, 'p', keyCode('up'))
+remapKey({'ctrl'}, 'e', keyCode('right', {'cmd'}))
+remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 
 remapKey({'ctrl'}, 'w', keyCode('x', {'cmd'}))
 remapKey({'ctrl'}, 'y', keyCode('v', {'cmd'}))
 
+remapKey({'ctrl'}, 'i', keyCode('tab'))
+remapKey({'ctrl'}, 'm', keyCode('return'))
 remapKey({'ctrl'}, 's', keyCode('f', {'cmd'}))
 remapKey({'ctrl'}, '/', keyCode('z', {'cmd'}))
+remapKey({'ctrl'}, 'h', keyCode('delete'))
 remapKey({'ctrl'}, 'g', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
