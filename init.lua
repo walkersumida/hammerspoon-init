@@ -88,6 +88,7 @@ remapKey({'ctrl'}, 'i', keyCode('tab'))
 remapKey({'ctrl'}, 'm', keyCode('return'))
 remapKey({'ctrl'}, 's', keyCode('f', {'cmd'}))
 remapKey({'ctrl'}, '/', keyCode('z', {'cmd'}))
+remapKey({'ctrl'}, '-', keyCode('z', {'cmd'}))
 remapKey({'ctrl'}, 'h', keyCode('delete'))
 remapKey({'ctrl'}, 'g', keyCode('escape'))
 
