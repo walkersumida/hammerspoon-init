@@ -90,7 +90,7 @@ remapKey({'ctrl'}, 's', keyCode('f', {'cmd'}))
 remapKey({'ctrl'}, '/', keyCode('z', {'cmd'}))
 remapKey({'ctrl'}, '-', keyCode('z', {'cmd'}))
 remapKey({'ctrl'}, 'h', keyCode('delete'))
-remapKey({'ctrl'}, 'g', keyCode('escape'))
+remapKey({'ctrl'}, '[', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
 remapKey({'alt'}, 'v', keyCode('pageup'))
