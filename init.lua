@@ -82,10 +82,12 @@ local function disableAllHotkeys()
 end
 
 local function enableAllHotkeys()
+   disableAllHotkeys()
    hotkeys('general')
 end
 
 local function enableHotkeysForVSCode()
+   disableAllHotkeys()
    hotkeys('vscode')
 end
 
